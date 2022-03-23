@@ -14,6 +14,7 @@ the following are technologies that i used in the project
  -javascript
  -jquery
  -chrome browser
+ -github
 
 ## project setup instructions
 Installing the project is simple ,to install the project,follow the following steps.-make an empty folder,clone the repository ising the link below
