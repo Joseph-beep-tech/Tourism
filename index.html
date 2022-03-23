@@ -1,0 +1,939 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/c939d0e917.js"></script>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+            <a class="nav-mtalii" href="#">
+                <img src="./image/MTALII.ADVENTURE.png" alt="" width=30%>
+            </a>
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                    aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#" style="font-size: 20px;">Home
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html" style="font-size: 20px;">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="services.html" style="font-size: 20px;">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact" style="font-size: 20px;">Contact</a>
+                        </li>
+                    </ul>
+
+
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <!-- carousel here -->
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="./image/lake-nakuru.jpg" alt="Lake Nakuru" style="width:100%; height: 80vh;">
+                    <div class="carousel-caption">
+                        <h1>You want to travel</h1>
+                        <h2 style="font-size: 20px;">We are here for you</h2>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="./image/kenya-in-pictures-beautiful-places-to-photograph-the-aberdares.jpg"
+                        alt="Aberdares" style="width:100%; height: 80vh;">
+                    <div class="carousel-caption">
+                        <h1>FIND THE GREAT CITIES..</h1>
+                        <h2>We are here to take you</h2>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="./image/kenya-in-pictures-beautiful-places-to-photograph-malindi.jpg" alt="Malindi"
+                        style="width:100%; height: 80vh;">
+                    <div class="carousel-caption">
+                        <h1>SO WHERE WILL IT BE?</h1>
+                        <h2>wE will take you.</h2>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- where my form comes in -->
+      
+        <button id="nairobi">Nairobi</button>
+        <button id="mombasa">Mombasa</button>
+        <button id="nakuru">Nakuru</button>
+        <button id="kisumu">Kisumu</button>
+        <div id="row1">
+            <div class="container" onclick="myFunction(this)" id="close1">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+
+                    <div class="card" style="width: 18rem;">
+                        <h2>Nairobi National Park</h2>
+                        <img src="./image/Nairobi National Park.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the
+                                card's content.</p>
+                            <div id="park">
+
+                                <table>
+                                    <tr>
+                                        <th>Activities</th>
+                                        <th>Fees</th>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Game Drive
+                                        </td>
+                                        <td>1000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Bird-watching
+                                        </td>
+                                        <td>1500</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Camping
+                                        </td>
+                                        <td>6500</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="col-md-4">
+
+
+                    <div class="card" style="width: 18rem;">
+                        <h2>Snake Park</h2>
+                        <img src="./image/sankepark.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">The Snake Park lies a little below the National Museum, and is partly
+                                housed in
+                                a small building, with a central garden—a little set of trees, bushes & rocks .</p>
+                            <div id="park">
+
+                                <table>
+                                    <tr>
+                                        <th>Activities</th>
+                                        <th>Fees</th>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Tour Guide
+                                        </td>
+                                        <td>2000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Snake Viewing
+                                        </td>
+                                        <td>1500</td>
+                                    </tr>
+
+                                </table>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+
+                    <div class="card" style="width: 18rem;">
+                        <h2>Mamba Village</h2>
+                        <img src="./image/Mamba-Village1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">The Nairobi Mamba Village Restaurant provides you with a great indoor
+                                and
+                                outdoor experience that shows off unique touches of African inspired.</p>
+                            <div id="park">
+
+                                <table>
+                                    <tr>
+                                        <th>Activities</th>
+                                        <th>Fees</th>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Tour Guide
+                                        </td>
+                                        <td>1000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Alligator-Viewing
+                                        </td>
+                                        <td>1500</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Entrance
+                                        </td>
+                                        <td>500</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div id="row2">
+            <div class="container" onclick="myFunction(this)" id="close2">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+
+                    <div class="card" style="width: 18rem;">
+                        <h2>Fort Jesus</h2>
+                        <img src="./image/fort-jesus.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Fort Jesus was built by the Portuguese towards the end of the 16th
+                                century
+                                (1593-1596) on the coastline near Old Town Mombasa. Mombasa was a transit place for
+                                trade at
+                                that time and a gateway to India, and the fort was build to protect the town from
+                                outside
+                                invaders.</p>
+                            <div id="park">
+
+                                <table>
+                                    <tr>
+                                        <th>Activities</th>
+                                        <th>Fees</th>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Tour Guide
+                                        </td>
+                                        <td>1000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Island Tour
+                                        </td>
+                                        <td>1500</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Entrance
+                                        </td>
+                                        <td>500</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="col-md-4">
+
+
+                    <div class="card" style="width: 18rem;">
+                        <h2>Nyali Beach</h2>
+                        <img src="./image/nyali.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Nyali is a residential area and Sub-County within Mombasa City, located
+                                on
+                                the mainland north ... on almost all the seaside (Sai Rock Hotel & Spa, Sarova
+                                Whitesands .
+                            </p>
+                            <div id="park">
+
+                                <table>
+                                    <tr>
+                                        <th>Activities</th>
+                                        <th>Fees</th>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Swahili Dishes
+                                        </td>
+                                        <td>2000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Swimming
+                                        </td>
+                                        <td>1500</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            Beach Camping
+                                        </td>
+                                        <td>5500</td>
+                                    </tr>
+
+
+                                </table>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+
+                    <div class="card" style="width: 18rem;">
+                        <h2>Marine National Park</h2>
+                        <img src="./image/Mombasa-Marine-National-Park-and-Reservefd.jpg" class="card-img-top"
+                            alt="...">
+                        <div class="card-body">
+                            <p class="card-text"> It is located on the coast near tourist areas and is a popular beach
+                                because of the snorkeling and diving. It is the most heavily visited of Kenya's marine
+                                parks.</p>
+                            <div id="park">
+
+                                <table>
+                                    <tr>
+                                        <th>Activities</th>
+                                        <th>Fees</th>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            See Diving
+                                        </td>
+                                        <td>5000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Marine Tour
+                                        </td>
+                                        <td>2500</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Boat Riding
+                                        </td>
+                                        <td>6500</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid">
+        <div id="row2">
+            <div class="container" onclick="myFunction(this)" id="close2">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+
+                    <div class="card" style="width: 18rem;">
+                        <h2>Fort Jesus</h2>
+                        <img src="./image/fort-jesus.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Fort Jesus was built by the Portuguese towards the end of the 16th
+                                century
+                                (1593-1596) on the coastline near Old Town Mombasa. Mombasa was a transit place for
+                                trade at
+                                that time and a gateway to India, and the fort was build to protect the town from
+                                outside
+                                invaders.</p>
+                            <div id="park">
+
+                                <table>
+                                    <tr>
+                                        <th>Activities</th>
+                                        <th>Fees</th>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Tour Guide
+                                        </td>
+                                        <td>1000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Island Tour
+                                        </td>
+                                        <td>1500</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Entrance
+                                        </td>
+                                        <td>500</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="col-md-4">
+
+
+                    <div class="card" style="width: 18rem;">
+                        <h2>Nyali Beach</h2>
+                        <img src="./image/nyali.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Nyali is a residential area and Sub-County within Mombasa City, located
+                                on
+                                the mainland north ... on almost all the seaside (Sai Rock Hotel & Spa, Sarova
+                                Whitesands .
+                            </p>
+                            <div id="park">
+
+                                <table>
+                                    <tr>
+                                        <th>Activities</th>
+                                        <th>Fees</th>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Swahili Dishes
+                                        </td>
+                                        <td>2000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Swimming
+                                        </td>
+                                        <td>1500</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            Beach Camping
+                                        </td>
+                                        <td>5500</td>
+                                    </tr>
+
+
+                                </table>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+
+                    <div class="card" style="width: 18rem;">
+                        <h2>Marine National Park</h2>
+                        <img src="./image/Mombasa-Marine-National-Park-and-Reservefd.jpg" class="card-img-top"
+                            alt="...">
+                        <div class="card-body">
+                            <p class="card-text"> It is located on the coast near tourist areas and is a popular beach
+                                because of the snorkeling and diving. It is the most heavily visited of Kenya's marine
+                                parks.</p>
+                            <div id="park">
+
+                                <table>
+                                    <tr>
+                                        <th>Activities</th>
+                                        <th>Fees</th>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            See Diving
+                                        </td>
+                                        <td>5000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Marine Tour
+                                        </td>
+                                        <td>2500</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Boat Riding
+                                        </td>
+                                        <td>6500</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container-fluid">
+        <div id="row3">
+            <div class="container" onclick="myFunction(this)" id="close3">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+
+                    <div class="card" style="width: 18rem;">
+                        <h2>Lake Nakuru National Park</h2>
+                        <img src="./image/Lake Nakuru NP_1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">A beautiful wildlife haven”. On the floor of the Great Rift Valley,
+                                surrounded by wooded and bushy grassland, lies the beautiful Lake Nakuru National Park.
+                            </p>
+                            <div id="park">
+
+                                <table>
+                                    <tr>
+                                        <th>Activities</th>
+                                        <th>Fees</th>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Game Drive
+                                        </td>
+                                        <td>2000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Entrance
+                                        </td>
+                                        <td>1500</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Excursions
+                                        </td>
+                                        <td>2500</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="col-md-4">
+
+
+                    <div class="card" style="width: 18rem;">
+                        <h2>Elentaita Lodge</h2>
+                        <img src="./image/elementaita-country-lodge.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Elementaita country lodge is 4 star lodge situated 120 kilometer from
+                                Nairobi and only 45 minutes to Lake Nakuru. The lodge is situated less than 500metres
+                                from
+                                Lake Elementaita on the shores of flamingos /pelican .</p>
+                            <div id="park">
+
+                                <table>
+                                    <tr>
+                                        <th>Activities</th>
+                                        <th>Fees</th>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Accomodation
+                                        </td>
+                                        <td>20000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Swimming
+                                        </td>
+                                        <td>15000</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            Boat Riding
+                                        </td>
+                                        <td>5500</td>
+                                    </tr>
+
+
+                                </table>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+
+                    <div class="card" style="width: 18rem;">
+                        <h2>Menengai crater</h2>
+                        <img src="./image/crater.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text"> Menengai Crater is a massive shield volcano with one of the biggest
+                                calderas in the world, in the Great Rift Valley, Kenya. It is the largest volcano
+                                caldera in
+                                Kenya and the second largest volcano caldera in Africa.</p>
+                            <div id="park">
+
+                                <table>
+                                    <tr>
+                                        <th>Activities</th>
+                                        <th>Fees</th>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Entrance
+                                        </td>
+                                        <td>500</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Hiking
+                                        </td>
+                                        <td>2500</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Camping
+                                        </td>
+                                        <td>500</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid">
+        <div id="row4">
+            <div class="container" onclick="myFunction(this)" id="close4">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+
+                    <div class="card" style="width: 18rem;">
+                        <h2>Kisumu Impala Sanctuary</h2>
+                        <img src="./image/impala.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Set on the shore of Lake Victoria, the largest freshwater lake in
+                                Africa,
+                                the Kisumu Impala Sanctuary is a peaceful, relaxing place to enjoy the natural beauty.
+                            </p>
+                            <div id="park">
+
+                                <table>
+                                    <tr>
+                                        <th>Activities</th>
+                                        <th>Fees</th>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Game Drive
+                                        </td>
+                                        <td>2000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Entrance
+                                        </td>
+                                        <td>1500</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Picnic
+                                        </td>
+                                        <td>2500</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="col-md-4">
+
+
+                    <div class="card" style="width: 18rem;">
+                        <h2>Kit-Mikayi</h2>
+                        <img src="./image/kit-mikayi.gif" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Kit-Mikayi — also spelled Kit Mikayi, Kitmikayi, and Kitmikaye — is a
+                                rock
+                                formation, a tor, around 120 m high situated about 29 km west of the town of Kisumu in
+                                western Kenya. It is about 1 km from the Kisumu-Bondo road.</p>
+                            <div id="park">
+
+                                <table>
+                                    <tr>
+                                        <th>Activities</th>
+                                        <th>Fees</th>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Excursions
+                                        </td>
+                                        <td>500</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Tour Guide
+                                        </td>
+                                        <td>1500</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            Bird-watching
+                                        </td>
+                                        <td>1000</td>
+                                    </tr>
+
+
+                                </table>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+
+                    <div class="card" style="width: 18rem;">
+                        <h2>Lake Victoria</h2>
+                        <img src="./image/Lake-Victoria-Rusinga-Island-Kenya.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text"> Lake Victoria is one of the African Great Lakes. The lake was named
+                                after
+                                Queen Victoria by the explorer John Hanning Speke, in his reports—the first Briton to
+                                document it.</p>
+                            <div id="park">
+
+                                <table>
+                                    <tr>
+                                        <th>Activities</th>
+                                        <th>Fees</th>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Boat Riding
+                                        </td>
+                                        <td>1500</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Fishing
+                                        </td>
+                                        <td>2500</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Diving
+                                        </td>
+                                        <td>5000</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 col-sm-6">
+                <div class="single-town">
+                    <div class="town-img">
+                        <img class=" image-fluid" src="./image/Nairobi collage.jpg" alt="Nairobi" width="100%"
+                            height="340">
+                    </div>
+                    <div class="town-content">
+                        <div class="town-info">
+                            <h3>Nairobi City</h3>
+                            <p>The capital city</p>
+                        </div>
+                        <p class="town-text">The city is popularly referred to as the Green City in the Sun. Nairobi is
+                            the is the only capital city with
+                            a national park. It is the largest city in Kenya. It was founded in 1907.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="single-town">
+                    <div class="town-img">
+                        <img class=" image-fluid" src="./image/nakuru.jpg" alt="Nakuru" width="100%" height="340">
+                    </div>
+                    <div class="town-content">
+                        <div class="town-info">
+                            <h3>Nakuru</h3>
+                            <p>The Metropolitan Town.</p>
+                        </div>
+                        <p class="town-text">The third largest urban area in Kenya.It is the capital of Nakuru County
+                            and formerly of
+                            Rift-Valley Province. It is found in the Rift-Valley and host L.Nakuru a major tourist
+                            attraction.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="single-town">
+                    <div class="town-img">
+                        <img class=" image-fluid" src="./image/Mombasa gallery.png" alt="Mombasa" width="100%"
+                            height="340">
+                    </div>
+                    <div class="town-content">
+                        <div class="town-info">
+                            <h3>Mombasa</h3>
+                            <p>Coastal city</p>
+                        </div>
+                        <p class="town-text">Coastal city of Kenya along the Indian Ocean.It is Kenya's oldest and
+                            second largest in the country. It is a tourism based city.
+                            Swahili tends to be the most spoken language.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="single-town">
+                    <div class="town-img">
+                        <img class=" image-fluid" src="./image/kisumu dala.jpg" alt="Kisumu" width="100%" height="340">
+                    </div>
+                    <div class="town-content">
+                        <div class="town-info">
+                            <h3>Kisumu</h3>
+                            <p>The Lake city</p>
+                        </div>
+                        <p class="town-text">The third largest city in Kenya.It serves as the headquarter of the Lake
+                            Region Economic Bloc, a conglomeratio of 14countries.
+                            it is the capital center Kisumu county. It is widely famous for being the hometown of Barack
+                            Obama.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <section>
+            <br>
+            <br>
+
+            <h1 style="text-align:center;">Where adventure begins..</h1>
+            <div class="par">
+                <p>Here mtalii we get to expose to you the beautiful towns of Kenya. We know of the spots to appease and
+                    well get to satisfy your want to travel
+                    and getting to connect with the country. Be it in the wild, or the serene quiteness of nature or in
+                    the concrete jungle, let us be your guides
+                    and let us take care of you as the nature natures you. We are proud to say of them who have reached
+                    to us for our services. We have the best practices in the
+                    field.
+                </p>
+            </div>
+
+        </section>
+        <!-- footer section -->
+
+        <footer class="section footer">
+            <!-- footer link -->
+            <div class="footer-link">
+                <a href="#" class="footer-link">home</a>
+                <a href="about.html" class="footer-link">about</a>
+                <a href="#contact" class="footer-link">contact</a>
+                <a href="about.html" class="footer-link">images</a>
+
+            </div>
+            <!-- footer icons -->
+            <div id = "contact"></div>
+            <a href="https://www.twitter.com" target='_blank' class="footer-icon">
+                <i class="fab fa-twitter"></i></a>
+            <a href="https://www.twitter.com" target='_blank' class="footer-icon">
+                <i class="fab fa-instagram"></i></a>
+            <a href="https://www.twitter.com" target='_blank' class="footer-icon">
+                <i class="fab fa-facebook"></i></a>
+            <href href="https://www.twitter.com" target='_blank' class="footer-icon">
+                <i class="fab fa-whatsapp-square"></i>
+
+            </href>
+            <!-- copyright -->
+            <p class="copyright">
+                copyright &copy;talii kenya <span id="date">2020</span>.all right reserved
+            </p>
+        </footer>
+
+
+        <!-- end of footer section -->
+    </div>
+    <script src="./js/scripts.js"></script>
+
+</body>
+
+</html>

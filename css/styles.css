@@ -1,0 +1,184 @@
+
+.nav-mtalii{
+padding-right: 5%;
+}
+.par {
+    font-size:24px;
+    text-align: center;
+}
+h1 {
+    font-weight: bold;
+}
+
+.carousel-caption {
+    padding-bottom: 250px;
+}
+.carousel-caption h1 {
+    font-size:50px;
+    text-transform:uppercase;
+    font-weight:bold;
+}
+.carousel-caption h2 {
+    font-family: 'Dancing Script', cursive;
+}
+.search-town {
+    padding:30px 0;
+    margin:-20px 6% 50px;
+    background-image: linear-gradient(to right, #6db9ef, #7ce08a);
+}
+.search-town .form-control {
+    display:inline-flex;
+    max-width:250px;
+    margin:10px 5px;
+    border-radius:5px; 
+}
+.single-town {
+    
+    position: relative;
+    z-index:1;
+    overflow: hidden;
+    box-shadow: 5px 5px 15px #000;
+}
+.town-img {
+    position: relative;
+    z-index:5;
+    overflow: hidden;
+}
+.town-img img {
+    width:100%;
+    transition: .4s;
+}
+.single-town:hover .town-img img {
+    transform: scale(1.1);
+}
+.town-content {
+ 
+    width:100%;
+    position: absolute;
+    text-align: center;
+    overflow: hidden;
+    bottom: 0;
+   
+    transition: all .4s;
+    background:transparent;
+    z-index:5;
+}
+ .single-town:hover .town-content {
+     height:150px;
+ }
+ .town-info {
+     padding: 5px 20px 5px 20px;
+     transition: all .5s;
+ }
+ .single-town:hover .town-content{
+    background:#000;
+ }
+ .single-town .town-content .town-info h3 {
+     text-transform: uppercase;
+     color:white;
+     font-size: 16px;
+     margin:5px;
+ }
+ .town-info p {
+     margin-top:15px;
+     color:#fff;
+ }
+ .town-text {
+     color:#fff;
+     padding: 0 10px 5px;
+ }
+ 
+ /* footer */
+.footer{
+    background-color:#061e25;
+    color: blanchedalmond;
+    text-align: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+   }
+   .footer-links,.footer-icons{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+   }
+   .footer-link{
+    color: white;
+    text-transform: capitalize;
+    font-size: 1.1rem;
+    margin-right: 1rem;
+    letter-spacing: var(--letterSpacing);
+    transition: all 3s ease-in-out;
+   }
+   .footer-link:hover{
+    color: blue;
+   }
+   .footer-icon{
+    font-size: 1.9rem;
+    margin-right: 1rem;
+    color: white;
+    transition:var(--mainTransition) ;
+   }
+   .footer-icon:hover{
+    color: yellowgreen;
+    transform: translateY(-10);
+   }
+   .copyright{
+    text-transform: capitalize;
+    letter-spacing: var(--letterSpacing);
+    padding-bottom: 1rem;
+   }
+   .top-header{
+    color:#98CE00;
+    font-family: 'Satisfy',
+    cursive;
+   
+   }
+ 
+
+table,td,th,tr{
+    border:solid black 1px 
+}
+#row1,#row2,#row3,#row4{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(51, 51, 51, 0.116);
+}
+.container {
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+  }
+  
+  .change .bar2 {opacity: 0;}
+  
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+#row1,#row2,#row3,#row4{
+    display:none;
+
+}
+#close1,#close2,#close3,#close4{
+    margin-left:90%;
+}
+#nairobi,#mombasa,#kisumu,#nakuru{
+    background-color: #061e25;
+    color: white;
+    padding: 20px;
+    margin-left: 10%;
+}
+  
