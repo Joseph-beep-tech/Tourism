@@ -22,11 +22,11 @@ Installing the project is simple ,to install the project,follow the following st
 ### link to the repository
  Here is the link to the project github repository 
 
- https://github.com/Barnabas27/Utalii.git
+https://github.com/Joseph-beep-tech/Tourism
 
 
 ## colaborations
-Do you want to collaborate to the project? well and good,any person with ideas can colaborate to the project b following the below steps
+Do you want to collaborate to the project? well and good,any person with ideas can colaborate to the project following the mentioned steps
  -fork the repository into your account
  -use clone the repository to your local machine 
  -create a pull request
@@ -36,7 +36,7 @@ Do you want to collaborate to the project? well and good,any person with ideas c
 In future we are looking foward to improve the projects functionality, moreso the UI and interactivity in general.this will be made possible as we continue to learn more technologies.
 
 # Licence
-Copyright (c) <2020> <Denis ligare,Barnabas Kamau,Joseph Okoth,Yitzhak Njenga>
+Copyright (c) <2022> <Joseph-beep-tech>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
